@@ -1,0 +1,93 @@
+# "J:/VIC-ASSIST" is my local directory where I stored the VIC-ASSIST package. Please try to change it accordingly. 
+
+SOIL          J:/VIC-ASSIST/library/misc/casestudy/illinois/soilparam_usgs07196500.txt
+RESULT_DIR          J:/VIC-ASSIST/library/misc/casestudy/illinois/vic_out/
+STARTYEAR	1998
+STARTMONTH	1
+STARTDAY	1
+ENDYEAR	2010
+ENDMONTH	9
+ENDDAY	30
+MAX_SNOW_TEMP	2.458307
+MIN_RAIN_TEMP	-0.018980
+OUT_STEP	24
+#############################################################################
+ 
+NLAYER         3
+NODES          10
+TIME_STEP      24
+SNOW_STEP      6
+STARTHOUR      0
+ 
+FULL_ENERGY           FALSE
+CLOSE_ENERGY          FALSE
+ 
+FROZEN_SOIL           FALSE
+QUICK_FLUX            TRUE
+ 
+SNOW_DENSITY          DENS_BRAS  
+BLOWING               FALSE
+COMPUTE_TREELINE      FALSE       
+CORRPREC              FALSE
+SPATIAL_SNOW          FALSE
+SNOW_BAND             5     J:/VIC-ASSIST/library/misc/casestudy/illinois/elevband_usgs07196500.txt
+ 
+FORCING1              J:/VIC-ASSIST/library/misc/casestudy/illinois/meteo/data_
+FORCE_FORMAT          ASCII 
+FORCE_ENDIAN          LITTLE
+N_TYPES               7
+FORCE_TYPE            SKIP      
+FORCE_TYPE            SKIP      
+FORCE_TYPE            SKIP      
+FORCE_TYPE            PREC      
+FORCE_TYPE            TMAX      
+FORCE_TYPE            TMIN      
+FORCE_TYPE            WIND      
+FORCE_DT              24
+FORCEYEAR             1915
+FORCEMONTH            1
+FORCEDAY              1
+FORCEHOUR             0
+GRID_DECIMAL          5
+WIND_H                10.0
+MEASURE_H             2.0
+ALMA_INPUT            FALSE
+ 
+VEGLIB                J:/VIC-ASSIST/library/misc/casestudy/illinois/veglib.LDAS
+VEGPARAM              J:/VIC-ASSIST/library/misc/casestudy/illinois/vegepar_usgs07196500.txt
+BASEFLOW              ARNO        
+VEGLIB_VEGCOVER       FALSE
+VEGPARAM_LAI          FALSE
+VEGPARAM_ALB          FALSE
+VEGPARAM_VEGCOVER     FALSE
+LAI_SRC               FROM_VEGLIB  
+ALB_SRC               FROM_VEGLIB  
+VEGCOVER_SRC          FROM_VEGLIB  
+JULY_TAVG_SUPPLIED    FALSE
+ORGANIC_FRACT         FALSE
+ROOT_ZONES            3
+ 
+#ROUTE                 J:/VIC-ASSIST/library/misc/casestudy/illinois/routparam_usgs07196500.txt
+#ROUTE_OUTFILE         J:/VIC-ASSIST/library/misc/casestudy/illinois/simflow_usgs07196500.txt
+#ROUTE                 J:/VIC-ASSIST/library/misc/casestudy/illinois/routparam_usgs07194800.txt
+#ROUTE_OUTFILE         J:/VIC-ASSIST/library/misc/casestudy/illinois/simflow_usgs07194800.txt
+#ROUTE                 J:/VIC-ASSIST/library/misc/casestudy/illinois/routparam_usgs07195000.txt
+#ROUTE_OUTFILE         J:/VIC-ASSIST/library/misc/casestudy/illinois/simflow_usgs07195000.txt
+#ROUTE                 J:/VIC-ASSIST/library/misc/casestudy/illinois/routparam_usgs07195500.txt
+#ROUTE_OUTFILE         J:/VIC-ASSIST/library/misc/casestudy/illinois/simflow_usgs07195500.txt
+ROUTE                 J:/VIC-ASSIST/library/misc/casestudy/illinois/routparam_usgs07196000.txt
+ROUTE_OUTFILE         J:/VIC-ASSIST/library/misc/casestudy/illinois/simflow_usgs07196000.txt
+ 
+SKIPYEAR              0
+COMPRESS              FALSE
+BINARY_OUTPUT         FALSE
+ALMA_OUTPUT           FALSE
+MOISTFRACT            FALSE
+PRT_HEADER            FALSE
+PRT_SNOW_BAND         FALSE
+ 
+
+N_OUTFILES     1
+OUTFILE        vic     2
+OUTVAR         OUT_RUNOFF
+OUTVAR         OUT_BASEFLOW
