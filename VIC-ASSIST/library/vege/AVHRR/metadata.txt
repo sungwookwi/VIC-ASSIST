@@ -1,0 +1,30 @@
+Name = AVHRR_1km_LANDCOVER_1981_1994.GLOBAL.tif
+Compositing Period = 1992-1993
+Sensor ID = AVHRR
+Projection = Geographic coordinates
+Datum = WGS84
+Units = Decimal Degrees
+Pixel Size = 0.01 degrees, 1km
+UL Map x =      -180.00000
+UL Map y =	90.00000
+LR Map x =	180.00000
+LR Map y =	-90.00000
+Num. of samples =         36000
+Num. of lines =         18000
+Data Type = 8 bit
+Data Values:
+0 = Water
+1 = Evergreen Needleleaf Forest
+2 = Evergreen Broadleaf Forest
+3 = Deciduous Needleleaf Forest
+4 = Deciduous Broadleaf Forest
+5 = Mixed Forest
+6 = Woodland
+7 = Wooded Grassland
+8 = Closed Shrubland
+9 = Open Shrubland
+10 = Grassland
+11 = Cropland
+12 = Bare Ground
+14 = Urban and Built
+
