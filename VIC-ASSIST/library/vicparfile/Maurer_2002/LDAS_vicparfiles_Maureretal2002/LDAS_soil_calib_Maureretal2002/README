@@ -1,0 +1,7 @@
+These files were copied from /nfs/arctic/raid/archive/phobic/raid/edm/from_thermal/LDAS_input/soils/ on
+March 1, 2011. They are the calibrated LDAS soil parameter files used in:
+Maurer, E.P., A.W. Wood, J.C. Adam, D.P. Lettenmaier, and B. Nijssen, 2002, A long-term 
+hydrologically-based data set of land surface fluxes and states for the conterminous United States, 
+J. Climate. 15, 3237-3251.
+The original, uncalibrated LDAS soil parameter file, and the code used to generate it, is available at 
+ftp://ftp.hydro.washington.edu/pub/CE/HYDRO/edm/LDAS_data/
