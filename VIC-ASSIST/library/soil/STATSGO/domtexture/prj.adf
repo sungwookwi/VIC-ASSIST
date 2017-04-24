@@ -1,0 +1,8 @@
+Projection    GEOGRAPHIC
+Datum         NAD27
+Zunits        NO
+Units         DS
+Spheroid      CLARKE1866
+Xshift        0.0000000000
+Yshift        0.0000000000
+Parameters

@@ -1,0 +1,3 @@
+199512081612   2    99     0raw us48_geo_grid = merge (us48e_geo, us48w_geo)
+199601111443   0     2     0raw copy ~/gewex/mu_us48/us48_geo_grid us48_grid
+199601121109   0     2     0raw copy ../mapunits/us48_grid domtextgrid

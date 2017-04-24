@@ -1,0 +1,21 @@
+The number, thickness, and depth to top and bottom of soil layers in the
+STATSGO data varies widely from one soil component to another, even
+within the same map unit.  This makes it difficult to use the STATSGO
+data in models, especially if they require rasterized (gridded) data.
+To facilitate rasterization of the STATSGO data and physical and
+hydraulic properties derived from it, we converted the STATSGO layers to
+a set of 11 standard layers, as follows:
+
+   Layer        Thickness       Depth to Top    Depth to Bottom
+        
+     1         5 cm (2 in)        0 cm (0 in)     5 cm (2 in)
+     2         5 cm (2 in)        5 cm (2 in)    10 cm (4 in)
+     3        10 cm (4 in)       10 cm (4 in)    20 cm (8 in)
+     4        10 cm (4 in)       20 cm (8 in)    30 cm (12 in)
+     5        10 cm (4 in)       30 cm (12 in)   40 cm (16 in)
+     6        20 cm (8 in)       40 cm (16 in)   60 cm (24 in)
+     7        20 cm (8 in)       60 cm (24 in)   80 cm (31 in)
+     8        20 cm (8 in)       80 cm (31 in)  100 cm (39 in)
+     9        50 cm (20 in)     100 cm (39 in)  150 cm (59 in)
+    10        50 cm (20 in)     150 cm (59 in)  200 cm (79 in)
+    11        50 cm (20 in)     200 cm (79 in)  250 cm (98 in)

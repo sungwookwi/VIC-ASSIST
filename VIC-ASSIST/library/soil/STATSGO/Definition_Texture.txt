@@ -1,0 +1,21 @@
+	 Standard soil texture classes used with STATSGO data
+
+	    Class Code	  Class Abbrev.	     Description
+					  
+		 0	      ND	     No data
+		 1	      S		     Sand
+		 2	      LS	     Loamy sand
+		 3	      SL	     Sandy loam
+		 4	      SIL	     Silt loam
+		 5	      SI	     Silt
+		 6	      L		     Loam
+		 7	      SCL	     Sandy clay loam
+		 8	      SICL	     Silty clay loam
+		 9	      CL	     Clay loam
+		10	      SC	     Sandy clay
+		11	      SIC	     Silty clay
+		12	      C		     Clay
+		13	      OM	     Organic materials
+		14	      W		     Water
+		15	      BR	     Bedrock
+		16	      O		     Other
