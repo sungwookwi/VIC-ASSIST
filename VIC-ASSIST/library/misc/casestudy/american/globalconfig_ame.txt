@@ -1,0 +1,86 @@
+# "J:/VIC-ASSIST" is my local directory where I stored the VIC-ASSIST package. Please try to change it accordingly. 
+
+SOIL          J:/VIC-ASSIST/library/misc/casestudy/american/soilpar_ame.txt
+RESULT_DIR          J:/VIC-ASSIST/library/misc/casestudy/american/vic_output/
+STARTYEAR	1996
+STARTMONTH	1
+STARTDAY	1
+ENDYEAR	2010
+ENDMONTH	12
+ENDDAY	31
+MAX_SNOW_TEMP	0.326965
+MIN_RAIN_TEMP	-2.688902
+OUT_STEP	24
+N_OUTFILES     1
+OUTFILE        vic     2
+OUTVAR         OUT_RUNOFF
+OUTVAR         OUT_BASEFLOW
+#############################################################################
+ 
+NLAYER         3
+NODES          10
+TIME_STEP      24
+SNOW_STEP      6
+STARTHOUR      0
+ 
+FULL_ENERGY           FALSE
+CLOSE_ENERGY          FALSE
+ 
+FROZEN_SOIL           FALSE
+QUICK_FLUX            TRUE
+ 
+SNOW_DENSITY          DENS_BRAS  
+BLOWING               FALSE
+COMPUTE_TREELINE      FALSE       
+CORRPREC              FALSE
+SPATIAL_SNOW          FALSE
+SNOW_BAND             13     J:/VIC-ASSIST/library/misc/casestudy/american/elevband_ame.txt
+ 
+FORCING1              J:/VIC-ASSIST/library/misc/casestudy/american/meteo/data_
+FORCE_FORMAT          ASCII 
+FORCE_ENDIAN          LITTLE
+N_TYPES               7
+FORCE_TYPE            SKIP      
+FORCE_TYPE            SKIP      
+FORCE_TYPE            SKIP      
+FORCE_TYPE            PREC      
+FORCE_TYPE            TMAX      
+FORCE_TYPE            TMIN      
+FORCE_TYPE            WIND      
+FORCE_DT              24
+FORCEYEAR             1915
+FORCEMONTH            1
+FORCEDAY              1
+FORCEHOUR             0
+GRID_DECIMAL          5
+WIND_H                10.0
+MEASURE_H             2.0
+ALMA_INPUT            FALSE
+ 
+VEGLIB                J:/VIC-ASSIST/library/vicparfile/veglib.LDAS
+VEGPARAM              J:/VIC-ASSIST/library/misc/casestudy/american/vegepar_ame.txt
+BASEFLOW              ARNO        
+VEGLIB_VEGCOVER       FALSE
+VEGPARAM_LAI          FALSE
+VEGPARAM_ALB          FALSE
+VEGPARAM_VEGCOVER     FALSE
+LAI_SRC               FROM_VEGLIB  
+ALB_SRC               FROM_VEGLIB  
+VEGCOVER_SRC          FROM_VEGLIB  
+JULY_TAVG_SUPPLIED    FALSE
+ORGANIC_FRACT         FALSE
+ROOT_ZONES            3
+ 
+ROUTE                 J:/VIC-ASSIST/library/misc/casestudy/american/routpar_ame.txt
+ROUTE_OUTFILE         J:/VIC-ASSIST/library/misc/casestudy/american/american
+ 
+SKIPYEAR              0
+COMPRESS              FALSE
+BINARY_OUTPUT         FALSE
+ALMA_OUTPUT           FALSE
+MOISTFRACT            FALSE
+PRT_HEADER            FALSE
+PRT_SNOW_BAND         FALSE
+ 
+
+
